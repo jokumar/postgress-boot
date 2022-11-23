@@ -4,11 +4,11 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import com.sample.postgress.dao.EmployeeDao;
 import com.sample.postgress.entity.Employee;
-@Component
+@Service
 public class EmployeeServiceImpl implements EmployeeService{
 	@Resource 
 	EmployeeDao employeeDao;
